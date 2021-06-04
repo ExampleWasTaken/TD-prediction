@@ -1,0 +1,10 @@
+{
+  "version": "0.1.0-snapshot",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

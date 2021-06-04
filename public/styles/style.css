@@ -1,0 +1,47 @@
+:root {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    background-color: #1B2434;
+    color: white;
+}
+
+.content {
+    display: flex;
+    height: 200px;
+    position: relative;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    order: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ra-container {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.fpa-container {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.error-msg-container {
+    order: 3;
+    color: red;
+}
